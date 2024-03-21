@@ -1,0 +1,21 @@
+main {
+    display: flex;
+}
+article {
+    flex: 1 1 50%;
+    order: 2;
+}
+#news {
+    flex: 1 1 25%;
+    order: 3;
+    text-align: center;
+}
+#contact {
+    flex: 1 1 25%;
+    order: 1;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
